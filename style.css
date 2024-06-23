@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+section {
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 40px 4%;
+}
+
+section.texto {
+    height: 300px;
+}
+
+section:nth-of-type(1) {
+    background-image: url("foto.jpg");
+}
+
+section:nth-of-type(3) {
+    background-image: url("foto1.jpg");
+}
+
+section:nth-of-type(5) {
+    background-image: url("foto2.jpg");
+}
+
+section:nth-of-type(7) {
+    background-image: url("foto3.jpg");
+}
+
+section:nth-of-type(9) {
+    background-image: url("foto4.jpg");
+}
+
+section:nth-of-type(11) {
+    background-image: url("foto5.jpg");
+}
+
+section:nth-of-type(13) {
+    background-image: url("foto4.jpg");
+}
